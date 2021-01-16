@@ -1,0 +1,106 @@
+body {
+  background-color: #eefbfb;
+  text-align: center;
+}
+
+footer {
+  background-color: #FFF;
+}
+
+h1 {
+  font-family: "Ubuntu";
+  color: #FFF;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #36454f;
+}
+
+/* Classes */
+.carousel-item {
+  padding: 7% 10%;
+}
+
+.container-fluid {
+  padding: 7% 10%;
+}
+
+#title .container-fluid {
+  padding: 3% 8%;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.center {
+  margin: auto;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.icon {
+  margin-bottom: 1rem;
+  color: #34a203;
+}
+
+.icon:hover {
+  color: #c1d11f;
+}
+
+.image-pad {
+  padding-bottom: 10px;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 30%
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.nav-link {
+  right: 0px;
+  padding: 10px;
+}
+
+.Social-icon {
+  margin: 20px 10px;
+}
+
+/* ID's */
+/* Section Features  */
+#Features {
+  background-color: #FFF;
+}
+
+#first-color {
+  background-color: #36454f;
+}
+
+#testimonials {
+  background-color: #e6e1f9;
+}
+
+/* Media queries */
+@media (max-width: 600px) {
+  h2 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px){
+#override .navbar-collapse.collapse {
+    display: block!important;
+    height: auto!important;
+    padding-bottom: 0;
+    overflow: visible!important;
+}
+}
