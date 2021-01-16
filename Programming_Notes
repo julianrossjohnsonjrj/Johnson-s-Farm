@@ -1,0 +1,10 @@
+/* Selecting elements with jquery. First property of method gets value of it
+and second changes the property to that value */
+
+$("h1").css("font-size", "5rem");
+
+$("button");
+
+/* Adding a class using jQuery /*
+
+$(h1").addClass("big-title margin-50");
